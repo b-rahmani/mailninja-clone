@@ -1,0 +1,40 @@
+:root{
+--desktop:1440px
+--tablet:800px
+--mobile:500px
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: var(--desktop);
+  padding: 1rem;
+}
+
+.header{
+  display: flex;
+
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+      font-size: 1.2rem;
+    }
+
+  }
+
+  .menu{
+    display: none;
+
+  }
+
+
+
+  
+}
