@@ -26,6 +26,7 @@ const Header = () => {
       </ul>
       <button className="signup"></button>
       <Button bg="red">sign up</Button>
+      {/* testing git no problem */}
     </div>
   );
 };
